@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<sales>
+			<standard_fee>
+				<standard_fee_label>Extra handling fee</standard_fee_label>
+				<standard_fee_price>5.50</standard_fee_price>
+			</standard_fee>
+		</sales>
+	</default>
+</config>
