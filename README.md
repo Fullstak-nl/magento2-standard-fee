@@ -22,6 +22,18 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
+## FAQ
+
+### Where can I edit the label and price?
+When you navigate to `Stores -> Configuration -> Sales`. You will see the first tab is the Standard Fee tab.
+![Admin screenshot](https://fullstak.nl/github/standardfee-mainimage.png)
+
+### I want to disable the fee
+Simply remove or disable the module. No need to keep it active if you don't use it.
+
+### Can i use it for certain products or categories?
+Yes, but it would require some custom code. If you want this to be done you can always contact us!
+
 ## Found bugs?
 Please create an issue in our [issue tracker](https://github.com/Fullstak-nl/magento2-standard-fee/issues).
 To solve the issue as quick as possible please include how to reproduce the error and some additional information like Magento2 version and hosting details.
