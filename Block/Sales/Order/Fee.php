@@ -118,6 +118,7 @@
 			);
 			
 			$parent->addTotal($fee, 'fee');
+			$this->_addTax('grand_total');
 			
 			return $this;
 		}
